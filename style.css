@@ -1,7 +1,10 @@
 h1,h2,h3,h4 { font-weight: lighter; }
 h1 { font-size:2em; }
 h2 { font-size:1.5em; }
-a { text-decoration: none; }
+a:hover, a {
+  text-decoration: none;
+  color: white
+}
 body {
   position:absolute;
   height:100%;
@@ -64,4 +67,20 @@ footer a {
   text-align: center;
   align-items: center;
   width: 100%;
+}
+.contact {
+  padding: 20px 0px;
+}
+.social {
+  padding: 40px 0px;
+}
+.col-md-3 .fa-5x {
+  background-image: -webkit-linear-gradient(bottom, #ebd000, #ef2750);
+  background-image: -moz-linear-gradient(bottom, #ebd000, #ef2750);
+  background-image: -ms-linear-gradient(bottom, #ebd000, #ef2750);
+  background-image: -o-linear-gradient(bottom, #ebd000, #ef2750);
+  background-image: linear-gradient(to bottom, #ebd000, #ef2750);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
 }

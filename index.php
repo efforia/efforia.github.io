@@ -57,44 +57,44 @@
     </div>
     <div class="row text-center">
       <div class="col-md-3">
-        <i class="fab fa-7x fa-app-store-ios"></i><p></p>
+        <i class="fab fa-5x fa-app-store-ios"></i><p></p>
         <h2>Aplicativos</h2>
         <p>Criamos os mais diversos apps para as plataformas Android e iOS</p>
       </div>
       <div class="col-md-3">
-        <i class="far fa-7x fa-lightbulb"></i><p></p>
+        <i class="far fa-5x fa-lightbulb"></i><p></p>
         <h2>Inteligência Artificial</h2>
         <p>Desenvolvemos chatbots e outras especialidades de AI</p>
       </div>
       <div class="col-md-3">
-        <i class="fas fa-7x fa-cloud"></i><p></p>
+        <i class="fas fa-5x fa-cloud"></i><p></p>
         <h2>Hospedagem</h2>
         <p>Hospedamos para você a solução que precisar na nuvem</p>
       </div>
       <div class="col-md-3">
-        <i class="fas fa-7x fa-paint-brush"></i><p></p>
+        <i class="fas fa-5x fa-paint-brush"></i><p></p>
         <h2>Webdesigning</h2>
         <p>Desenhamos sites, landing pages e outras páginas web</p>
       </div>
     </div>
     <div class="row text-center">
       <div class="col-md-3">
-        <i class="fas fa-7x fa-envelope"></i><p></p>
+        <i class="fas fa-5x fa-envelope"></i><p></p>
         <h2>E-mail Marketing</h2>
         <p>Realizamos a automação de marketing através do e-mail</p>
       </div>
       <div class="col-md-3">
-        <i class="fas fa-7x fa-chalkboard"></i><p></p>
+        <i class="fas fa-5x fa-chalkboard"></i><p></p>
         <h2>Business Model Canvas</h2>
         <p>Damos aquela orientação que você precisava para o seu negócio</p>
       </div>
       <div class="col-md-3">
-        <i class="fas fa-7x fa-certificate"></i><p></p>
+        <i class="fas fa-5x fa-certificate"></i><p></p>
         <h2>Identidade Visual</h2>
         <p>Estudamos e desenhamos logos, vinhetas e a identidade que precisar</p>
       </div>
       <div class="col-md-3">
-        <i class="fas fa-7x fa-broadcast-tower"></i><p></p>
+        <i class="fas fa-5x fa-broadcast-tower"></i><p></p>
         <h2>Internet das Coisas</h2>
         <p>Projetamos as mais diversas soluções de automação</p>
       </div>
@@ -105,7 +105,7 @@
   <div class="container-fluid grid">
     <div class="row text-center">
       <div class="col-md-12">
-        <h1>E esse é alguns de nossos clientes.</h1>
+        <h1>E esses são alguns de nossos clientes.</h1>
         <br><br>
       </div>
     </div>
@@ -217,8 +217,37 @@
     </div>
   </div>
   <footer style="display:block">
-    Rua Vigário José Inácio, 399/702, Centro Histórico - Porto Alegre/RS<br>
-    Telefone: +55 (51) 998 485 888 / E-mail: <a href="mailto:ola@efforia.io">ola@efforia.io</a><br>
+    <div class="container">
+      <div class="row text-center contact">
+        <div class="col-md-4">
+          <h2>Telefone</h2>
+          <p>
+            +55 (51) 3516 2367<br>
+            +55 (51) 998 485 888
+          </p>
+        </div>
+        <div class="col-md-4">
+          <h2>Endereço</h2>
+          <p>
+            Rua Vigário José Inácio, 399/702<br>
+            Centro Histórico - Porto Alegre/RS
+          </p>
+        </div>
+        <div class="col-md-4">
+          <h2>E-mail</h2>
+          <a href="mailto:ola@efforia.io">ola@efforia.io</a>
+        </div>
+      </div>
+      <div class="row text-center social">
+        <div class="col-md-6 offset-md-3">
+          <div class="row">
+            <div class="col"><a target=_blank href="https://www.facebook.com/efforiaio"><i class="fab fa-3x fa-facebook-f"></i></a></div>
+            <div class="col"><a target=_blank href="https://www.twitter.com/efforiaio"><i class="fab fa-3x fa-twitter"></i></a></div>
+            <div class="col"><a target=_blank href="https://www.linkedin.com/company/efforia-tecnologia/"><i class="fab fa-3x fa-linkedin-in"></i></a></div>
+          </div>
+        </div>
+      </div>
+    </div>
   </footer>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
