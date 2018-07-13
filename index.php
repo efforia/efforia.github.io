@@ -1,3 +1,33 @@
+<?php
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+
+require 'vendor/autoload.php';
+if(isset($_POST['submit'])){
+  $mail = new PHPMailer(true);                              // Passing `true` enables exceptions
+  $mail->isSMTP();
+  // $mail->SMTPDebug = 2;
+  $mail->Host = 'smtp.gmail.com';
+  $mail->Port = 587;
+  $mail->SMTPSecure = 'tls';
+  $mail->SMTPAuth = true;
+  $mail->Username = "ola@efforia.io";
+  $mail->Password = "mk28to#$";
+  $mail->setFrom($_POST['e_mail'], $_POST['first_name'] . ' ' . $_POST['last_name']);
+  $mail->addAddress('ola@efforia.io', 'Efforia');
+  $mail->isHTML(true);                                  // Set email format to HTML
+  $mail->Subject = 'Contato pelo site da Efforia';
+  $mail->Body    = $_POST['message'];
+  $mail->AltBody = $_POST['message'];
+  $mail->send();
+  /* if (!$mail->send()) {
+      echo "Mailer Error: " . $mail->ErrorInfo;
+  } else {
+      echo "Message sent!";
+  } */
+}
+?>
+
 <!doctype html>
 <html>
 <head>
@@ -7,25 +37,6 @@
   <link href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" rel="stylesheet" crossorigin="anonymous">
   <link href="./static/invent_white.png" rel="shortcut icon">
   <link href="./style.css" rel="stylesheet">
-  <?php
-    if(isset($_POST['submit'])){
-      $to = "ola@efforia.io"; // this is your Email address
-      $from = $_POST['email']; // this is the sender's Email address
-      $first_name = $_POST['first_name'];
-      $last_name = $_POST['last_name'];
-      $subject = "Form submission";
-      $subject2 = "Copy of your form submission";
-      $message = $first_name . " " . $last_name . " wrote the following:" . "\n\n" . $_POST['message'];
-      $message2 = "Here is a copy of your message " . $first_name . "\n\n" . $_POST['message'];
-
-      $headers = "From:" . $from;
-      $headers2 = "From:" . $to;
-      mail($to,$subject,$message,$headers);
-      mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
-      // echo "Mail Sent. Thank you " . $first_name . ", we will contact you shortly.";
-      // You can also use header('Location: thank_you.php'); to redirect to another page.
-    }
-  ?>
   <title>Efforia</title>
 </head>
 <body>
@@ -204,7 +215,7 @@
           </div>
           <div class="form-group">
             <label for="email">E-mail</label>
-            <input class="form-control" id="email" type="email" name="email">
+            <input class="form-control" id="email" type="email" name="e_mail">
           </div>
           <div class="form-group">
             <label for="message">Mensagem</label>
