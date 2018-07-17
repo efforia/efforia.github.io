@@ -1,29 +1,25 @@
 <?php
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\Exception;
-
-require 'vendor/autoload.php';
+// using SendGrid's PHP Library
+// https://github.com/sendgrid/sendgrid-php
+require 'vendor/autoload.php'; // If you're using Composer (recommended)
+// Comment out the above line if not using Composer
+// require("./sendgrid-php.php");
+// If not using Composer, uncomment the above line
 if(isset($_POST['submit'])){
-  $mail = new PHPMailer(true);                              // Passing `true` enables exceptions
-  $mail->isSMTP();
-  // $mail->SMTPDebug = 2;
-  $mail->Host = 'smtp.gmail.com';
-  $mail->Port = 587;
-  $mail->SMTPSecure = 'tls';
-  $mail->SMTPAuth = true;
-  $mail->Username = "ola@efforia.io";
-  $mail->Password = "mk28to#$";
-  $mail->setFrom($_POST['e_mail'], $_POST['first_name'] . ' ' . $_POST['last_name']);
-  $mail->addAddress('ola@efforia.io', 'Efforia');
-  $mail->isHTML(true);                                  // Set email format to HTML
-  $mail->Subject = 'Contato pelo site da Efforia';
-  $mail->Body    = $_POST['message'];
-  $mail->AltBody = $_POST['message'];
-  $mail->send();
-  /* if (!$mail->send()) {
-      echo "Mailer Error: " . $mail->ErrorInfo;
-  } else {
-      echo "Message sent!";
-  } */
+  $email = new \SendGrid\Mail\Mail();
+  $email->setFrom("mailer@efforia.io", "Mailer");
+  $email->setSubject("Contato de " . $_POST['first_name'] . " (". $_POST['e_mail'] . ")");
+  $email->addTo("ola@efforia.io", "Efforia");
+  $email->addContent("text/plain", $_POST['message']);
+  $email->addContent("text/html", $_POST['message']);
+  $sendgrid = new \SendGrid('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');
+  try {
+      $response = $sendgrid->send($email);
+      /* print $response->statusCode() . "\n";
+      print_r($response->headers());
+      print $response->body() . "\n";*/
+  } catch (Exception $e) {
+      // echo 'Caught exception: ',  $e->getMessage(), "\n";
+  }
 }
 ?>
