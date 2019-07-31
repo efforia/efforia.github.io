@@ -43,8 +43,8 @@ if(isset($_POST['submit'])){
   <div class="nebula">
     <div class="overlay">
       <p class="language">
-        <a href="#">EN</a> /
-        <a href="./pt/">PT</a>
+        <a href="../">EN</a> /
+        <a href="#">PT</a>
       </p>
       <div class="highlight">
         <div class="container">
@@ -52,9 +52,9 @@ if(isset($_POST['submit'])){
             <div class="col-md-8 offset-md-2">
               <img class="img-fluid col-md-3 col-7" src="./static/invent_white.svg"/>
               <br><br>
-              <h1>We are Efforia Invent Company</h1>
-              <h2>We create interactive, audiovisual and smart
-                <br>experiences throughout software and hardware.</h2>
+              <h1>Somos a Efforia Invent Company</h1>
+              <h2>Criamos experiências interativas, audiovisuais e
+                <br>inteligentes através de software e hardware.</h2>
             </div>
           </div>
         </div>
@@ -66,52 +66,52 @@ if(isset($_POST['submit'])){
     <div class="row text-center">
       <div class="col-md-12">
         <br><br>
-        <h1>Welcome. If you look for innovative solutions for your problems, you came to the right place.</h1>
+        <h1>Bem-vindo. Se procura por soluções inovadoras, chegou ao lugar certo.</h1>
         <br><br>
       </div>
     </div>
     <div class="row text-center">
       <div class="col-md-3">
         <i class="fab fa-5x fa-app-store-ios"></i><p></p>
-        <h2>Apps</h2>
-        <p>We create the most different apps for the mobile plataforms Android and iOS</p>
+        <h2>Aplicativos</h2>
+        <p>Criamos os mais diversos apps para as plataformas Android e iOS</p>
       </div>
       <div class="col-md-3">
         <i class="far fa-5x fa-lightbulb"></i><p></p>
-        <h2>Artificial Intelligence</h2>
-        <p>We develop chatbots and other AI specialties</p>
+        <h2>Inteligência Artificial</h2>
+        <p>Desenvolvemos chatbots e outras especialidades de AI</p>
       </div>
       <div class="col-md-3">
         <i class="fas fa-5x fa-cloud"></i><p></p>
-        <h2>Hosting</h2>
-        <p>We host the solution you need in the cloud</p>
+        <h2>Hospedagem</h2>
+        <p>Hospedamos para você a solução que precisar na nuvem</p>
       </div>
       <div class="col-md-3">
         <i class="fas fa-5x fa-paint-brush"></i><p></p>
-        <h2>Web</h2>
-        <p>We design sites, landing pages and other web pages</p>
+        <h2>Webdesign</h2>
+        <p>Desenhamos sites, landing pages e outras páginas web</p>
       </div>
     </div>
     <div class="row text-center">
       <div class="col-md-3">
         <i class="fas fa-5x fa-envelope"></i><p></p>
         <h2>E-mail Marketing</h2>
-        <p>We make marketing automation through e-mail</p>
+        <p>Realizamos a automação de marketing através do e-mail</p>
       </div>
       <div class="col-md-3">
         <i class="fas fa-5x fa-chalkboard"></i><p></p>
         <h2>Business Model Canvas</h2>
-        <p>We can make some business guidance that you could need</p>
+        <p>Damos aquela orientação que você precisava para o seu negócio</p>
       </div>
       <div class="col-md-3">
         <i class="fas fa-5x fa-certificate"></i><p></p>
-        <h2>Visual Identity</h2>
-        <p>We study and design logos, identity and vignettes for what you need</p>
+        <h2>Identidade Visual</h2>
+        <p>Estudamos e desenhamos logos, vinhetas e a identidade que precisar</p>
       </div>
       <div class="col-md-3">
         <i class="fas fa-5x fa-broadcast-tower"></i><p></p>
-        <h2>Internet of Things</h2>
-        <p>We design the most different connected automation solutions</p>
+        <h2>Internet das Coisas</h2>
+        <p>Projetamos as mais diversas soluções de automação</p>
       </div>
     </div>
     <br><br>
@@ -120,7 +120,7 @@ if(isset($_POST['submit'])){
   <div class="container-fluid grid">
     <div class="row text-center">
       <div class="col-md-12">
-        <h1>These are a few of our customers.</h1>
+        <h1>E esses são alguns de nossos clientes.</h1>
         <br><br>
       </div>
     </div>
@@ -129,7 +129,7 @@ if(isset($_POST['submit'])){
         <a href="http://www.angulodevista.com.br" target=_blank class="overlay">
           <div class="content">
             <h2>Ângulo de Vista</h2>
-            <p>Comic website</p>
+            <p>Website de quadrinhos</p>
           </div>
         </a>
       </div>
@@ -137,7 +137,7 @@ if(isset($_POST['submit'])){
         <a href="#" class="overlay">
           <div class="content">
             <h2>Frete Fácil</h2>
-            <p>Freighter delivery app</p>
+            <p>Aplicativo de entregas por freteiros</p>
           </div>
         </a>
       </div>
@@ -145,7 +145,7 @@ if(isset($_POST['submit'])){
         <a href="#" class="overlay">
           <div class="content">
             <h2>Vupit</h2>
-            <p>Beer distribution app</p>
+            <p>App de distribuição de bebidas</p>
           </div>
         </a>
       </div>
@@ -155,7 +155,7 @@ if(isset($_POST['submit'])){
         <a href="http://www.fabricadeideiascw.com.br" target=_blank class="overlay">
           <div class="content">
             <h2>Fábrica de Ideias Coworking</h2>
-            <p>Coworking space landing page</p>
+            <p>Landing page do espaço de coworking</p>
           </div>
         </a>
       </div>
@@ -163,7 +163,7 @@ if(isset($_POST['submit'])){
         <a href="http://www.derhut.com.br" target=_blank class="overlay">
           <div class="content">
             <h2>Der Hut</h2>
-            <p>German-Brazilian culture website</p>
+            <p>Website de cultura teuto-brasileira</p>
           </div>
         </a>
       </div>
@@ -171,7 +171,7 @@ if(isset($_POST['submit'])){
         <a href="http://www.25brasil.com.br" target=_blank class="overlay">
           <div class="content">
             <h2>Centro Cultural 25 de julho</h2>
-            <p>Cultural center portal from Porto Alegre/RS</p>
+            <p>Portal do centro cultural de POA</p>
           </div>
         </a>
       </div>
@@ -181,7 +181,7 @@ if(isset($_POST['submit'])){
         <a href="http://www.aterradosbichos.com.br" target=_blank class="overlay">
           <div class="content">
             <h2>A Terra dos Bichos</h2>
-            <p>Veterinary clinic landing page</p>
+            <p>Landing page da veterinária</p>
           </div>
         </a>
       </div>
@@ -189,7 +189,7 @@ if(isset($_POST['submit'])){
         <a href="http://www.trybocosmica.com.br" target=_blank class="overlay">
           <div class="content">
             <h2>Trybo Cósmica</h2>
-            <p>Cultural and religious website</p>
+            <p>Website cultural e religioso</p>
           </div>
         </a>
       </div>
@@ -197,7 +197,7 @@ if(isset($_POST['submit'])){
         <a href="http://www.grandircapitalfinanceiro.com" target=_blank class="overlay">
           <div class="content">
             <h2>Grandir Capital Financeiro</h2>
-            <p>Blockchain broker landing page</p>
+            <p>Landing page de corretora</p>
           </div>
         </a>
       </div>
@@ -207,7 +207,7 @@ if(isset($_POST['submit'])){
     <div class="row text-center">
       <div class="col-md-12">
         <br><br>
-        <h1 class="text-center">Did you like? Know more subscribing to our newsletter.</h1>
+        <h1 class="text-center">Gostou? Saiba mais se inscrevendo em nossa newsletter.</h1>
         <!-- Begin Mailchimp Signup Form -->
         <div id="mc_embed_signup">
           <form action="https://efforia.us15.list-manage.com/subscribe/post?u=05c870f4c948a5f5b75f65c4c&amp;id=58cc28237a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -224,7 +224,7 @@ if(isset($_POST['submit'])){
                 <input type="text" name="b_05c870f4c948a5f5b75f65c4c_58cc28237a" tabindex="-1" value="">
               </div>
               <div class="clear pt-3">
-                <input class="btn btn-outline-dark btn-lg" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe">
+                <input class="btn btn-outline-dark btn-lg" type="submit" value="Inscrever" name="subscribe" id="mc-embedded-subscribe">
               </div>
             </div>
           </form>
@@ -238,15 +238,15 @@ if(isset($_POST['submit'])){
     <div class="container">
       <div class="row text-center contact">
         <div class="col-md-4">
-          <h2>Phone</h2>
+          <h2>Telefone</h2>
           <p>
             +55 (51) 998 485 888
           </p>
         </div>
         <div class="col-md-4">
-          <h2>Address</h2>
+          <h2>Endereço</h2>
           <p>
-            Porto Alegre / RS - Brazil
+            Porto Alegre / RS - Brasil
           </p>
         </div>
         <div class="col-md-4">
