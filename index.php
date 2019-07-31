@@ -84,7 +84,7 @@ if(isset($_POST['submit'])){
       </div>
       <div class="col-md-3">
         <i class="fas fa-5x fa-paint-brush"></i><p></p>
-        <h2>Webdesigning</h2>
+        <h2>Webdesign</h2>
         <p>Desenhamos sites, landing pages e outras páginas web</p>
       </div>
     </div>
@@ -236,15 +236,13 @@ if(isset($_POST['submit'])){
         <div class="col-md-4">
           <h2>Telefone</h2>
           <p>
-            +55 (51) 3516 2367<br>
             +55 (51) 998 485 888
           </p>
         </div>
         <div class="col-md-4">
           <h2>Endereço</h2>
           <p>
-            Rua Vigário José Inácio, 399/702<br>
-            Centro Histórico - Porto Alegre/RS
+            Porto Alegre / RS - Brasil
           </p>
         </div>
         <div class="col-md-4">

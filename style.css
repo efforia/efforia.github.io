@@ -75,11 +75,11 @@ footer a {
   padding: 40px 0px;
 }
 .col-md-3 .fa-5x {
-  background-image: -webkit-linear-gradient(bottom, #ebd000, #ef2750);
-  background-image: -moz-linear-gradient(bottom, #ebd000, #ef2750);
-  background-image: -ms-linear-gradient(bottom, #ebd000, #ef2750);
-  background-image: -o-linear-gradient(bottom, #ebd000, #ef2750);
-  background-image: linear-gradient(to bottom, #ebd000, #ef2750);
+  background-image: -webkit-linear-gradient(bottom, #0f3c4f, #23004b);
+  background-image: -moz-linear-gradient(bottom, #0f3c4f, #23004b);
+  background-image: -ms-linear-gradient(bottom, #0f3c4f, #23004b);
+  background-image: -o-linear-gradient(bottom, #0f3c4f, #23004b);
+  background-image: linear-gradient(to bottom, #0f3c4f, #23004b);
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
